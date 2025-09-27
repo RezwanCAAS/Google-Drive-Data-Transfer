@@ -17,4 +17,4 @@ There are five easy steps to download the large data from Google Drive to your l
 #### 5) Copy the Google Drive link, e.g.,(ID: 10ofdgdfgdfgsurwSFTgiLdfgdfgr) and transfer data to your drive
 ```rclone copy --progress \
   --drive-root-folder-id **mention ID here** \
-  gdrive: "~/path/to/your/directory/"```
+  gdrive: "~/path/to/your/directory/"
