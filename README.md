@@ -14,7 +14,7 @@ There are five easy steps to download the large data from google drive to your l
 #### 4) Make your directory (if have then ignore this step and move to 5th step) 
 ```mkdir -p "/Volumes/Toshiba/kaust_data"```
 
-#### 5) Copy the google drive link, e.,g.,(ID: 10ofdgdfgdfgsurwSFTgiLdfgdfgr) to your external drive
+#### 5) Copy the google drive link, e.,g.,(ID: 10ofdgdfgdfgsurwSFTgiLdfgdfgr) and transfer data to your drive
 ```rclone copy --progress \
   --drive-root-folder-id **mention ID here** \
   gdrive: "~/path/to/your/directory/"```
